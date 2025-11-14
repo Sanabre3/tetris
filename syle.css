@@ -1,0 +1,17 @@
+/*
+    Arquivo: syle.css
+    - Import de fontes
+    - Estilos globais do body (centralização do canvas)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* === Estilos globais === */
+body{
+        margin: 0;
+        /* Cor de fundo do layout (pode ser alterada) */
+        background: #a0a0a0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+}
